@@ -1,0 +1,362 @@
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+
+/* nav style */
+
+/*style scrittura apartment logo e scrittura elementi nav */
+h3{
+        margin-left: 20px;
+        text-decoration:underline;
+}
+
+
+
+span {
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(226, 236, 229);
+
+}
+
+/*style image background dell nav homepage */
+.bodies {
+
+        background-image: url(foto/wallpaper.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 760px;
+
+
+}
+
+.bodie {
+        height: 250px;
+
+}
+
+/*style logo nav */
+.foto-logo {
+        width: 70px;
+        border-radius: 25%;
+
+}
+
+/*style scrittura nav tutte le pagine */
+.navbar {
+        text-align: center;
+}
+
+/*style frecce animate */
+.faspos {
+        margin-top: 470px;
+        text-align: center;
+        color: rgb(204, 212, 204);
+
+}
+
+/*style frecce animate*/
+.faspos {
+        -webkit-animation: wobble-hor-bottom 2s both;
+        animation: wobble-hor-bottom 2s both;
+}
+
+/**
+ * ----------------------------------------
+ * animation wobble-hor-bottom
+ * ----------------------------------------
+ */
+@-webkit-keyframes wobble-hor-bottom {
+
+        0%,
+        100% {
+                -webkit-transform: translateX(0%);
+                transform: translateX(0%);
+                -webkit-transform-origin: 50% 50%;
+                transform-origin: 50% 50%;
+        }
+
+        15% {
+                -webkit-transform: translateX(-30px) rotate(-6deg);
+                transform: translateX(-30px) rotate(-6deg);
+        }
+
+        30% {
+                -webkit-transform: translateX(15px) rotate(6deg);
+                transform: translateX(15px) rotate(6deg);
+        }
+
+        45% {
+                -webkit-transform: translateX(-15px) rotate(-3.6deg);
+                transform: translateX(-15px) rotate(-3.6deg);
+        }
+
+        60% {
+                -webkit-transform: translateX(9px) rotate(2.4deg);
+                transform: translateX(9px) rotate(2.4deg);
+        }
+
+        75% {
+                -webkit-transform: translateX(-6px) rotate(-1.2deg);
+                transform: translateX(-6px) rotate(-1.2deg);
+        }
+}
+
+@keyframes wobble-hor-bottom {
+
+        0%,
+        100% {
+                -webkit-transform: translateX(0%);
+                transform: translateX(0%);
+                -webkit-transform-origin: 50% 50%;
+                transform-origin: 50% 50%;
+        }
+
+        15% {
+                -webkit-transform: translateX(-30px) rotate(-6deg);
+                transform: translateX(-30px) rotate(-6deg);
+        }
+
+        30% {
+                -webkit-transform: translateX(15px) rotate(6deg);
+                transform: translateX(15px) rotate(6deg);
+        }
+
+        45% {
+                -webkit-transform: translateX(-15px) rotate(-3.6deg);
+                transform: translateX(-15px) rotate(-3.6deg);
+        }
+
+        60% {
+                -webkit-transform: translateX(9px) rotate(2.4deg);
+                transform: translateX(9px) rotate(2.4deg);
+        }
+
+        75% {
+                -webkit-transform: translateX(-6px) rotate(-1.2deg);
+                transform: translateX(-6px) rotate(-1.2deg);
+        }
+}
+
+/*  end nav style  */
+
+
+/*style scrittura tutte le pagine <h1> */
+.ourapparment {
+
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(128, 138, 132);
+}
+
+/*style foto fontpage che ti porta alla galeria */
+.appartm1 {
+        text-align: center;
+}
+
+.appartm {
+        border-radius: 20%;
+        width: 98%;
+        height: 350px;
+
+}
+
+.appartm:hover {
+        background-color: rgb(206, 203, 203);
+        transform: rotate(9deg);
+        transition: 2s;
+
+}
+
+/*style foto fontpage che ti porta alle foto e mapa */
+.enjoy1 {
+        text-align: center;
+}
+
+.enjoy {
+        border-radius: 0 0 20% 20%;
+        width: 98%;
+        height: 400px;
+}
+
+.enjoy:hover {
+        background-color: rgb(206, 203, 203);
+        transform: rotate(-9deg);
+        transition: 2s;
+
+}
+
+/*  whatsapp buttom style  */
+.float {
+        position: fixed;
+        width: 60px;
+        height: 60px;
+        bottom: 40px;
+        right: 20px;
+        background-color: #25d366;
+        color: #FFF;
+        border-radius: 50px;
+        text-align: center;
+        font-size: 28px;
+        box-shadow: 2px 2px 3px #999;
+        z-index: 100;
+}
+
+/*  end whatsapp buttom style  */
+
+/*style footer*/
+
+.card {
+        border: 5px;
+        color: rgb(53, 50, 49);
+}
+
+.disponibilita {
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(26, 27, 26);
+
+}
+
+.logofooter {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        height: 50%;
+        border-radius: 10%;
+
+
+}
+
+.textlogofooter {
+
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+}
+
+/*end footer style */
+
+
+/*style corusel foto galeria e carosel foto firenze*/
+.d-block {
+        width: 100%;
+        height: 350px;
+}
+
+
+.maps {
+
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        height: 250px;
+        width: 90%;
+        border-radius: 20%;
+
+}
+
+/*florenze style info*/
+
+.menu-item{
+        text-align: center;
+}
+
+
+.photo{
+        width: 70%;
+}
+
+.h1firenze{
+
+                font-size: 3rem;
+}
+h4 {
+         text-align: center;
+        letter-spacing: var(--spacing);
+        text-transform: capitalize;
+        line-height: 1.25;
+        margin-bottom: 0.75rem;
+        font-family: "Roboto", sans-serif;;
+      }
+      .item-text{
+        margin-bottom: 2.25rem;
+        color: var(--clr-grey-5);
+        color: hsl(210, 22%, 49%);;
+      }
+
+
+@media only screen and (min-width:800px) {
+
+        /*style corusel foto galeria e carosel foto firenze*/
+        .d-block {
+                padding-left: 5rem;
+                padding-right: 5rem;
+                width: 100%;
+                height: 750px;
+        }
+
+        /*style foto fontpage che ti porta alla galeria */
+        .appartm1 {
+                align-items: center;
+                text-align: center;
+        }
+
+        .appartm {
+                border-radius: 20%;
+                width: 80%;
+                height: 650px;
+
+
+        }
+
+        .appartm:hover {
+
+                transform: rotate(9deg);
+                transition: 2s;
+
+        }
+
+        /*style foto fontpage che ti porta alle foto e mapa */
+        .enjoy1 {
+                text-align: center;
+
+        }
+
+        .enjoy {
+                border-radius: 0 0 20% 20%;
+                width: 80%;
+                height: 600px;
+        }
+
+        .enjoy:hover {
+                background-color: rgb(206, 203, 203);
+                transform: rotate(-9deg);
+                transition: 2s;
+
+        }
+
+        .logofooter {
+                padding-top: 100px;
+
+                width: 40%;
+        }
+
+        .maps {
+
+                width: 70%;
+
+        }
+        .photo{
+                width: 50rem;
+        }
+        .section-center{
+                text-align: center;
+        }
+        .item-text{
+                width: 70%;
+                margin: auto;
+        }
+}
